@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f0dcbdc80776ca79d6311b8f92c5a4b5",
+    "content-hash": "05a5dcbe88909083ef3acc210d55e8b0",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1294,16 +1294,16 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "2.34.2",
+            "version": "2.35.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "3e87404329b8072295ea11d548b47a1eefe5a162"
+                "reference": "4b9bd835261ef23d36397a46a76b496a458305e5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/3e87404329b8072295ea11d548b47a1eefe5a162",
-                "reference": "3e87404329b8072295ea11d548b47a1eefe5a162",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/4b9bd835261ef23d36397a46a76b496a458305e5",
+                "reference": "4b9bd835261ef23d36397a46a76b496a458305e5",
                 "shasum": ""
             },
             "require": {
@@ -1373,7 +1373,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-05-19T22:14:16+00:00"
+            "time": "2020-05-24T18:27:52+00:00"
         },
         {
             "name": "nikic/php-parser",
@@ -1426,6 +1426,54 @@
                 "php"
             ],
             "time": "2020-04-10T16:34:50+00:00"
+        },
+        {
+            "name": "onecentlin/laravel-adminer",
+            "version": "4.7.6.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/onecentlin/laravel-adminer.git",
+                "reference": "cac5fa0c6f1cf247c70ab560ecf53f6011e81673"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/onecentlin/laravel-adminer/zipball/cac5fa0c6f1cf247c70ab560ecf53f6011e81673",
+                "reference": "cac5fa0c6f1cf247c70ab560ecf53f6011e81673",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/contracts": "~5.0|~6.0|~7.0",
+                "illuminate/routing": "~5.0|~6.0|~7.0",
+                "illuminate/support": "~5.0|~6.0|~7.0",
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Onecentlin\\Adminer\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Winnie Lin",
+                    "email": "onecentlin@gmail.com"
+                }
+            ],
+            "description": "Laravel Adminer Database Manager",
+            "keywords": [
+                "adminer",
+                "database",
+                "laravel5",
+                "laravel6",
+                "management",
+                "mysql",
+                "sqlite"
+            ],
+            "time": "2020-03-20T16:49:12+00:00"
         },
         {
             "name": "opis/closure",
@@ -2042,6 +2090,53 @@
                 }
             ],
             "time": "2020-03-29T20:13:32+00:00"
+        },
+        {
+            "name": "robinflyhigh/laravel-adminer",
+            "version": "1.0.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/robinflyhigh/laravel-adminer.git",
+                "reference": "fbbe6125ca4b7ee1f63afafdaf524a7521a53d9a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/robinflyhigh/laravel-adminer/zipball/fbbe6125ca4b7ee1f63afafdaf524a7521a53d9a",
+                "reference": "fbbe6125ca4b7ee1f63afafdaf524a7521a53d9a",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": ">=5.1",
+                "php": ">=7.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^6.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Aranyasen\\LaravelAdminer\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Aranya Sen",
+                    "email": "sen.aranya@gmail.com"
+                }
+            ],
+            "description": "Adminer (by Jakub Vrana) wrapper for Laravel 5.5+",
+            "keywords": [
+                "adminer",
+                "database",
+                "explorer",
+                "laravel5",
+                "management"
+            ],
+            "time": "2020-03-14T09:51:23+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",

@@ -17,8 +17,18 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Auth::routes();
+Auth::routes([
+    'register' => false,
+    'reset' => false,
+    'verify' => false,
+]);
 
-Route::get('/home', 'HomeController@index')->name('home');
-
+//Adminer for MySQL
 Route::any('adminer', '\Aranyasen\LaravelAdminer\AdminerAutologinController@index');
+
+//Admin routes
+Route::group(['middleware' => 'auth'], function(){
+    Route::get('/admin', 'AdminController@index')->name('admin');
+});
+
+

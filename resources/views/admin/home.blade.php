@@ -1,27 +1,13 @@
 @extends('layouts.admin')
 
+@extends('admin.base')
+
 @section('content')
-    Hello, {{ Auth::user()->login }}. That`s admin area.
+    <div class="row">
+        <div class="col-sm-8 offset-sm-2">
+            Hello, {{ Auth::user()->login }}. That`s admin area. You can <a href="{{ route('news.create') }}">create</a> news, or watch the <a href="{{ route('news.index') }}">list</a> of news!
+        </div>
+    </div>
 @endsection
 
 {{--@section('content')--}}
-{{--<div class="container">--}}
-{{--    <div class="row justify-content-center">--}}
-{{--        <div class="col-md-8">--}}
-{{--            <div class="card">--}}
-{{--                <div class="card-header">Dashboard</div>--}}
-
-{{--                <div class="card-body">--}}
-{{--                    @if (session('status'))--}}
-{{--                        <div class="alert alert-success" role="alert">--}}
-{{--                            {{ session('status') }}--}}
-{{--                        </div>--}}
-{{--                    @endif--}}
-
-{{--                    You are logged in!--}}
-{{--                </div>--}}
-{{--            </div>--}}
-{{--        </div>--}}
-{{--    </div>--}}
-{{--</div>--}}
-{{--@endsection--}}

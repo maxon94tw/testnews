@@ -16,7 +16,8 @@
         "laravel/tinker": "^2.0",
         "laravel/ui": "^2.0",
         "onecentlin/laravel-adminer": "4.7.6.1",
-        "robinflyhigh/laravel-adminer": "^1.0"
+        "robinflyhigh/laravel-adminer": "^1.0",
+        "webdevetc/blogetc": "^7.3"
     },
     "require-dev": {
         "facade/ignition": "^2.0",

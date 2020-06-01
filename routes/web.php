@@ -27,16 +27,12 @@ Auth::routes([
 Route::any('adminer', '\Aranyasen\LaravelAdminer\AdminerAutologinController@index');
 
 //Admin routes
-Route::group(['middleware' => 'auth'], function(){
-
-    Route::get('/admin', 'AdminController@index')->name('admin');
-
-    Route::resource('news', 'NewsController');
-
-    Route::get('/admin/news', 'NewsController@index');
-
-});
-
-
-
-
+//Route::group(['middleware' => 'auth'], function(){
+//
+//    Route::get('/admin', 'AdminController@index')->name('admin');
+//
+//    Route::resource('news', 'NewsController');
+//
+//    Route::get('/admin/news', 'NewsController@index');
+//
+//});

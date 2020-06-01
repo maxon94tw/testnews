@@ -26,7 +26,8 @@ class LoginController extends Controller
      *
      * @var string
      */
-    protected $redirectTo = '/admin/news';
+    protected $redirectTo = '/news_admin';
+
 
     /**
      * Create a new controller instance.
@@ -36,7 +37,11 @@ class LoginController extends Controller
     public function __construct()
     {
         $this->middleware('guest')->except('logout');
+        return redirect('/news');
+
     }
+
+
 
     public function username()
     {

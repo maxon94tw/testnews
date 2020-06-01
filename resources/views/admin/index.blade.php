@@ -37,7 +37,7 @@
                             <a href="{{ route('news.edit',$new->id)}}" class="btn btn-primary">Edit</a>
                         </td>
                         <td>
-                            <form action="{{ route('news.destroy', $new->id)}}" onsubmit="confirm()" method="post">
+                            <form action="{{ route('news.destroy', $new->id)}}" method="post">
                                 @csrf
                                 @method('DELETE')
                                 <button class="btn btn-danger" type="submit" onclick="return confirm('Are you sure?')">Delete</button>

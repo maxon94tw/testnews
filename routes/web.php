@@ -34,12 +34,7 @@ Route::group(['middleware' => 'auth'], function(){
     Route::resource('news', 'NewsController');
 
     Route::get('/admin/news', 'NewsController@index');
-    Route::get('/admin/news/create', 'NewsController@create')->name('create');
-    Route::post('/admin/news', 'NewsController@store');
-    Route::get('/admin/news/{new}', 'NewsController@show');
-    Route::get('/admin/news/{new}/edit', 'NewsController@edit');
-    Route::patch('/admin/news/{new}', 'NewsController@update');
-    Route::get('/admin/news/{new}', 'NewsController@destroy');
+
 });
 
 

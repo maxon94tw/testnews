@@ -26,6 +26,13 @@ Auth::routes([
 //Adminer for MySQL
 Route::any('adminer', '\Aranyasen\LaravelAdminer\AdminerAutologinController@index');
 
+Route::get('/news', 'PostController');
+Route::get('posts', 'PostController@posts')->name('posts');
+
+Route::post('posts', 'PostController@postPost')->name('posts.post');
+
+
+
 //Admin routes
 //Route::group(['middleware' => 'auth'], function(){
 //

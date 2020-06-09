@@ -14,7 +14,6 @@
                            class='btn border  btn-outline-primary btn-sm '>
 
                             <i class="fa fa-cogs" aria-hidden="true"></i>
-
                             Go To Blog Admin Panel</a>
 
 
@@ -47,3 +46,4 @@
         </div>
     </div>
 @endsection
+

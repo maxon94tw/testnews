@@ -162,6 +162,7 @@ return [
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
         Onecentlin\Adminer\ServiceProvider::class,
+        willvincent\Rateable\RateableServiceProvider::class,
 
         /*
          * Package Service Providers...

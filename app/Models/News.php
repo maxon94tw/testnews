@@ -11,14 +11,10 @@ class News extends Model
      *
      * @var string
      */
-    protected $table = 'news';
+    protected $table = 'blog_etc_posts';
 
     protected $fillable = [
-        'title',
-        'photo',
-        'tags',
-        'description',
-        'text',
-        'activity',
+        'id',
+        'view_count',
     ];
 }

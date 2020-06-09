@@ -17,7 +17,8 @@
         "laravel/ui": "^2.0",
         "onecentlin/laravel-adminer": "4.7.6.1",
         "robinflyhigh/laravel-adminer": "^1.0",
-        "webdevetc/blogetc": "^7.3"
+        "webdevetc/blogetc": "^7.3",
+        "willvincent/laravel-rateable": "^2.1"
     },
     "require-dev": {
         "facade/ignition": "^2.0",
